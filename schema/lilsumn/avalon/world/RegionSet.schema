@@ -1,0 +1,14 @@
+package lilsumn.avalon.world;
+
+type ChunkRegion {
+  int32 rep_x = 1;
+  int32 rep_z = 2;
+  list<int32> connections = 3;
+}
+
+component RegionSet {
+    id = 1102;
+    int32 x = 1;
+    int32 z = 2;
+    map<int32, ChunkRegion> regions = 3;
+}

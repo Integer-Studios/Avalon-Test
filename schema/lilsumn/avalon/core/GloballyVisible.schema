@@ -1,0 +1,5 @@
+package lilsumn.avalon.core;
+
+component GloballyVisible {
+    id = 1006;
+}
