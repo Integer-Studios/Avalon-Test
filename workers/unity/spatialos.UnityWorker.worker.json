@@ -17,14 +17,15 @@
    "streaming_query": [
 	    {
 	        "global_component_streaming_query":{
-	            "component_name":"lilsumn.avalon.world.RegionSet"
+	            "component_name":"lilsumn.avalon.core.GloballyVisible"
 	    	},
 	    	"components_streamed": {
 		    	"specific_components": {
 			    	"components": [
 				    	"improbable.Position",
 				    	"improbable.Metadata",
-				    	"lilsumn.avalon.world.RegionSet"
+				    	"lilsumn.avalon.world.RegionSet",
+				    	"lilsumn.avalon.core.GloballyVisible"
 			    	]
 		    	}
 	    	}
