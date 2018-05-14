@@ -14,7 +14,22 @@
         "radius": 200
       }
     },
-   "streaming_query": [ { "global_component_streaming_query":{ "component_name":"lilsumn.avalon.core.GloballyVisible" }, "components_streamed": { "specific_components": { "components": [ "lilsumn.avalon.world.RegionSet" ] } } } ],
+   "streaming_query": [
+	    {
+	        "global_component_streaming_query":{
+	            "component_name":"lilsumn.avalon.world.RegionSet"
+	    	},
+	    	"components_streamed": {
+		    	"specific_components": {
+			    	"components": [
+				    	"improbable.Position",
+				    	"improbable.Metadata",
+				    	"lilsumn.avalon.world.RegionSet"
+			    	]
+		    	}
+	    	}
+	    }
+	],
     "component_delivery": {
       "default": "RELIABLE_ORDERED",
       "checkout_all_initially": true
